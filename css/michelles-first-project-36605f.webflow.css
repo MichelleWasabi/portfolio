@@ -11,6 +11,7 @@ a {
   margin-right: 0px;
   margin-bottom: 0px;
   font-family: Quicksand, sans-serif;
+  /* color: #0e9ca0; */
   color: #a59200;
   font-size: 20px;
   font-weight: 500;
@@ -33,6 +34,7 @@ a {
   margin-bottom: 2px;
   font-family: Quicksand, sans-serif;
   color: #a59200;
+  /* color: #0e9ca0; */
   font-size: 20px;
   font-weight: 500;
   text-align: center;
@@ -44,6 +46,12 @@ a {
   margin-bottom: 8rem;
   padding-right: 80px;
   padding-left: 80px;
+}
+.hero-image {
+  border-radius: 1rem;
+  border: 1px solid #f7f6f6;
+  height: auto;
+  margin-top: 1rem;
 }
 
 .image {
@@ -75,7 +83,7 @@ a {
 
 .body {
   background-color: #fff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
 
@@ -147,13 +155,13 @@ a {
 }
 
 .button:hover {
-  background-color: rgba(165, 155, 26, .5);
+  background-color: rgba(165, 155, 26, 0.5);
 }
 
 .button:active {
   border-style: solid;
   border-color: #fff;
-  background-color: rgba(165, 155, 26, .69);
+  background-color: rgba(165, 155, 26, 0.69);
 }
 
 .column-2 {
@@ -187,7 +195,7 @@ a {
   font-family: Quicksand, sans-serif;
   color: #333;
   font-size: 36px;
-  line-height: 55px;
+  line-height: 45px;
   text-transform: capitalize;
 }
 
@@ -230,7 +238,7 @@ a {
   grid-row-gap: 16px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto;
-  border-color: rgba(0, 0, 0, .39);
+  border-color: rgba(0, 0, 0, 0.39);
   border-bottom-style: solid;
   border-bottom-width: 1px;
 }
@@ -256,6 +264,13 @@ a {
   align-items: flex-start;
 }
 
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  .div-block-4 {
+    margin-left: 12rem;
+    margin-right: 12rem;
+  }
+}
+
 .div-block-4 {
   position: static;
   display: block;
@@ -264,18 +279,18 @@ a {
   clear: none;
   border-style: solid;
   border-width: 0.5px;
-  border-color: rgba(0, 0, 0, .19);
+  border-color: rgba(0, 0, 0, 0.19);
   -webkit-transform: translate(0px, 0px);
   -ms-transform: translate(0px, 0px);
   transform: translate(0px, 0px);
-  color: rgba(51, 51, 51, .34);
+  color: rgba(51, 51, 51, 0.34);
   font-weight: 100;
 }
 
 .container-2 {
   border-style: none;
   border-width: 10rem;
-  border-color: rgba(0, 0, 0, .98);
+  border-color: rgba(0, 0, 0, 0.98);
 }
 
 .heading-4 {
@@ -299,6 +314,10 @@ a {
   text-transform: lowercase;
 }
 
+figcaption {
+  text-align: left;
+}
+
 .submit-button {
   border: 1px solid #a59b1a;
   border-radius: 5px;
@@ -308,7 +327,7 @@ a {
 }
 
 .submit-button:hover {
-  background-color: rgba(165, 155, 26, .5);
+  background-color: rgba(165, 155, 26, 0.5);
 }
 
 .submit-button:active {
@@ -316,13 +335,13 @@ a {
 }
 
 .text-field {
-  border-color: rgba(165, 155, 26, .5);
+  border-color: rgba(165, 155, 26, 0.5);
   border-radius: 2px;
   font-family: Quicksand, sans-serif;
 }
 
 .text-field-2 {
-  border-color: rgba(165, 155, 26, .5);
+  border-color: rgba(165, 155, 26, 0.5);
   border-radius: 2px;
   font-family: Quicksand, sans-serif;
 }
@@ -347,7 +366,7 @@ a {
   float: none;
   clear: none;
   border-style: none;
-  background-image: url('../images/pinkGlobe.jpeg');
+  background-image: url("../images/pinkGlobe.jpeg");
   background-position: 50% 56%;
   background-size: auto;
   background-repeat: no-repeat;
@@ -368,6 +387,12 @@ a {
   padding-left: 0px;
   float: none;
   clear: none;
+}
+
+@media (max-width: 667px) {
+  .image-3 {
+    width: 120px;
+  }
 }
 
 .scrollbutton {
@@ -401,16 +426,16 @@ a {
   top: 0px;
   right: 0px;
   margin-top: 0rem;
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-right: 150px;
   padding-left: 150px;
   background-color: #fff;
 }
 
-.bodycontent {
-  padding-right: 80px;
-  padding-left: 80px;
-}
+/* .bodycontent {
+  padding-right: 2em;
+  padding-left: 2em;
+} */
 
 .column-3 {
   position: static;
@@ -421,8 +446,8 @@ a {
 .div-block-6 {
   margin-top: 3rem;
   margin-bottom: 2rem;
-  padding-right: 80px;
-  padding-left: 80px;
+  padding-right: 7rem;
+  padding-left: 7rem;
 }
 
 .text-block-4 {
@@ -500,35 +525,35 @@ a {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  border-top: 0.5px solid rgba(51, 51, 51, .29);
+  border-top: 0.5px solid rgba(51, 51, 51, 0.29);
   background-color: #333;
   color: #fff;
 }
 
 .image-6 {
   display: block;
-  background-image: url('../images/IMG_6629.JPG');
+  background-image: url("../images/IMG_6629.JPG");
   background-position: 0px 0px;
   background-size: 1224px;
   background-repeat: repeat;
 }
 
 .slide {
-  background-image: url('../images/aboutMe_img.jpg');
+  background-image: url("../images/aboutMe_img.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: repeat;
 }
 
 .slide-2 {
-  background-image: url('../images/4geeks.jpeg');
+  background-image: url("../images/4geeks.jpeg");
   background-position: 100% 50%;
   background-size: cover;
   background-repeat: repeat;
 }
 
 .slide-3 {
-  background-image: url('../images/cat_copy.jpeg');
+  background-image: url("../images/cat_copy.jpeg");
   background-position: 0px 0px;
   background-size: cover;
 }
@@ -609,8 +634,16 @@ a {
 .textarea {
   border-style: solid;
   border-width: 1px;
-  border-color: rgba(165, 155, 26, .5);
+  border-color: rgba(165, 155, 26, 0.5);
   border-radius: 2px;
+}
+
+.padding-left {
+  padding-left: 2em;
+}
+
+.padding-right {
+  padding-right: 3em;
 }
 
 @media (max-width: 991px) {
@@ -634,9 +667,17 @@ a {
     background-color: #a59b1a;
     color: #fff;
   }
+  .nav-link-2:hover {
+    background-color: #a59b1a;
+    color: #333333;
+  }
   .nav-link-3 {
     background-color: #a59b1a;
     color: #fff;
+  }
+  .nav-link-3:hover {
+    background-color: #a59b1a;
+    color: #333333;
   }
   .button {
     display: block;
@@ -656,6 +697,13 @@ a {
   }
   .menu-button.w--open {
     background-color: #fff;
+  }
+  .padding-left {
+    padding-left: 0em;
+  }
+
+  .padding-right {
+    padding-right: 0em;
   }
 }
 
@@ -698,7 +746,7 @@ a {
     padding-right: 10px;
   }
   .button {
-    position: absolute;
+    position: relative;
     left: 0px;
     right: 0px;
     bottom: -21px;
@@ -724,8 +772,8 @@ a {
     padding-left: 10px;
   }
   .bodycontent {
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
   .column-3 {
     padding-right: 0px;
@@ -830,8 +878,8 @@ a {
     padding-left: 3rem;
   }
   .bodycontent {
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
   .div-block-6 {
     padding-right: 20px;
@@ -858,6 +906,18 @@ a {
   .icon {
     background-color: transparent;
   }
+  .padding-left {
+    padding-left: 0em;
+  }
+
+  .padding-right {
+    padding-right: 0em;
+  }
+
+  .heading-2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -880,4 +940,103 @@ a {
 
 #sizer {
   background-color: #333;
+}
+
+/* UI Page */
+
+.ui-rows {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.uu-columns {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.ui-columns img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .ui-columns {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .ui-columns {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* .homebody-img {
+  background: url(../images/aboutMe.jpg);
+  height: auto;
+} */
+
+/* my styles  */
+.image-centered {
+  display: block;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 0.3rem;
+}
+
+.w-container-mod {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+  margin-top: 8rem;
+}
+
+@media (max-width: 767px) {
+  .w-container-mod {
+    margin-top: 2rem;
+  }
+}
+
+.image-text {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-right: 0px;
+}
+
+.figure-padding {
+  padding-top: 3rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.dividers {
+  text-align: center;
+  margin-bottom: 6rem;
+  margin-top: 5rem;
+}
+
+@media (max-width: 767px) {
+  .dividers {
+    display: none;
+  }
+}
+
+.backBTN {
+  color: #0e9ca0;
+  font-size: medium;
+}
+
+.back-btn-spacing {
+  margin-left: 2rem;
+  margin-top: 2rem;
 }
