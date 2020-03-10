@@ -1040,3 +1040,8 @@ figcaption {
   margin-left: 2rem;
   margin-top: 2rem;
 }
+
+.skills-section {
+  display: flex;
+  justify-content: space-between;
+}
