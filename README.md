@@ -1,2 +1,9 @@
-#Portfolio 
-Temporary build of my portfolio. Started the portfolio on Webflow then migrated it out and began customizining it on my own. Will rebuild in GatsbyJS. 
+# Michelle Wasabi Portfolio
+
+### Current
+
+This version started out in Webflow then migrated to VScode where I made updates and cusomization. 
+
+### Future Plans 
+
+Will rebuild in GatsbyJS
